@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>سینما نمونه | معرفی فیلم و سریال</title>
+        <!--Style sheet-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
+    </head>
+<body>
+    <!-- Header -->
+    <header>
+        <a href="#" class="logo">سینما نمونه <i class="fas fa-film"></i></a>
+        <ul class="nav-links">
+            <li><a href="#">خانه</a></li>
+            <li><a href="#categories">دسته‌بندی‌ها</a></li>
+            <li><a href="#featured">پیشنهاد ویژه</a></li>
+            <li><a href="#trending">محبوب‌ترین‌ها</a></li>
+            <li><a href="#new-releases">تازه ترین آثار</a></li>
+        </ul>
+        <div class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+    
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <div class="close-btn">
+            <i class="fas fa-times"></i>
+        </div>
+        <ul class="mobile-links">
+            <li><a href="#">خانه</a></li>
+            <li><a href="#categories">دسته‌بندی‌ها</a></li>
+            <li><a href="#featured">پیشنهاد ویژه</a></li>
+            <li><a href="#trending">محبوب‌ترین‌ها</a></li>
+            <li><a href="#new-releases">تازه ترین آثار</a></li>
+        </ul>
+    </div>
+    <div class="overlay"></div>
+    
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>به دنیای فیلم و سریال خارجی خوش آمدید</h1>
+            <p>بهترین فیلم‌ها و سریال‌های خارجی را با ما پیدا کنید. از محبوب ترین آثار تا کلاسیک‌های سینمایی، همه در اینجا.</p>
+            <div class="search-box">
+                <input type="text" placeholder="فیلم یا سریال مورد نظر را جستجو کنید...">
+                <button><i class="fas fa-search"></i> جستجو</button>
+            </div>
+        </div>
+    </section>
+
+    <!--Film and series-->
+    <div class="media-tabs">
+        <button class="media-tab active" data-tab="movies">فیلم‌ها</button>
+        <button class="media-tab" data-tab="series">سریال‌ها</button>
+    </div>
+
+    <!--Films-->
+    <section class="media-section active" id="movies">
+        <h2 class="section-title">8 فیلم برتر دنیا</h2>
+        <div class="media-container">
+            <div class="media-card">
+                <img src="assets/img/the-shawshank-redemption.jpg" alt="رستگاری در شاوشنک" class="media-poster">
+                <div class="media-info">
+                    <h3>رستگاری در شاوشنک</h3>
+                    <div class="media-meta">
+                        <span>1994</span>
+                        <span class="media-rating"><i class="fas fa-star"></i> 9.3</span>
+                    </div>
+                    <span class="media-type">جنایی</span>
+                </div>
+            </div>
+            
+            <div class="media-card">
+                <img src="assets/img/The-Godfather.jpg" alt="پدرخوانده" class="media-poster">
+                <div class="media-info">
+                    <h3>پدرخوانده</h3>
+                    <div class="media-meta">
+                        <span>1972</span>
+                        <span class="media-rating"><i class="fas fa-star"></i> 9.2</span>
+                    </div>
+                    <span class="media-type">جنایی</span>
+                </div>
+            </div>
+            
+            <div class="media-card">
+                <img src="assets/img/Inception.jpg" alt="تلقین" class="media-poster">
+                <div class="media-info">
+                    <h3>تلقین</h3>
+                    <div class="media-meta">
+                        <span>2010</span>
+                        <span class="media-rating"><i class="fas fa-star"></i> 8.8</span>
+                    </div>
+                    <span class="media-type">مهیج</span>
+                </div>
+            </div>
+            
+            <div class="media-card">
+                <img src="assets/img/sw-empire-strikes-back.jpg" alt="جنگ ستارگان: امپراطوری ضربه میزند" class="media-poster">
+                <div class="media-info">
+                    <h3>جنگ ستارگان: امپراطوری ضربه میزند</h3>
+                    <div class="media-meta">
+                        <span>1980</span>
+                        <span class="media-rating"><i class="fas fa-star"></i> 8.7</span>
+                    </div>
+                    <span class="media-type">تخیلی</span>
+                </div>
+            </div>
+            <div class="media-card">
+                <img src="assets/img/its-a-wonderful-life.jpg" alt="سکوت بره ها" class="media-poster">
+                <div class="media-info">
+                    <h3>سکوت بره ها</h3>
+                    <div class="media-meta">
+                        <span>1991</span>
+                        <span class="media-rating"><i class="fas fa-star"></i> 8.6</span>
+                    </div>
+                    <span class="media-type">درام</span>
+                </div>
+            </div>
+            <div class="media-card">
+                <img src="assets/img/interstellar.jpeg" alt="میان ستاره ای" class="media-poster">
+                <div class="media-info">
+                    <h3>اینترستلار</h3>
+                    <div class="media-meta">
+                        <span>2014</span>
+                        <span class="media-rating"><i class="fas fa-star"></i> 8.6</span>
+                    </div>
+                    <span class="media-type">تخیلی</span>
+                </div>
+            </div>
+            <div class="media-card">
+                <img src="assets/img/The-Dark-Knight.jpg" alt="شوالیه تاریکی" class="media-poster">
+                <div class="media-info">
+                    <h3>شوالیه تاریکی</h3>
+                    <div class="media-meta">
+                        <span>2008</span>
+                        <span class="media-rating"><i class="fas fa-star"></i> 9.0</span>
+                    </div>
+                    <span class="media-type">اکشن</span>
+                </div>
+            </div>
+            <div class="media-card">
+                <img src="assets/img/1917.jpg" alt="1917" class="media-poster">
+                <div class="media-info">
+                    <h3>1917</h3>
+                    <div class="media-meta">
+                        <span>2018</span>
+                        <span class="media-rating"><i class="fas fa-star"></i> 9.0</span>
+                    </div>
+                    <span class="media-type">درام</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Series-->
+    <section class="media-section" id="series">
+        <h2 class="section-title">8 سریال برتر دنیا</h2>
+        <div class="media-container">
+            <div class="media-card">
+                <img src="assets/img/breaking-bad.jpg" alt="بریکینگ بد" class="media-poster">
+                <div class="media-info">
+                    <h3>بریکینگ بد</h3>
+                    <div class="media-meta">
+                        <span>2008</span>
+                        <span class="media-rating"><i class="fas fa-star"></i> 9.5</span>
+                    </div>
+                    <span class="media-type">درام و جنایی</span>
+                </div>
+            </div>
+
+            <div class="media-card">
+                <img src="assets/img/The-Sopranos.jpg" alt="سوپرانو ها" class="media-poster">
+                <div class="media-info">
+                    <h3>سوپرانو ها</h3>
+                    <div class="media-meta">
+                        <span>1997</span>
+                        <span class="media-rating"><i class="fas fa-star"></i> 9.2</span>
+                    </div>
+                    <span class="media-type">درام</span>
+                </div>
+            </div>
+            
+            <div class="media-card">
+                <img src="assets/img/wire.jpg" alt="شنود" class="media-poster">
+                <div class="media-info">
+                    <h3>شنود</h3>
+                    <div class="media-meta">
+                        <span>2002</span>
+                        <span class="media-rating"><i class="fas fa-star"></i> 9.3</span>
+                    </div>
+                    <span class="media-type">جنایی</span>
+                </div>
+            </div>
+
+            <div class="media-card">
+                <img src="assets/img/BetterCallSaul.jpg" alt="بهتره با ساول تماس بگیری" class="media-poster">
+                <div class="media-info">
+                    <h3>بهتره با ساول تماس بگیری</h3>
+                    <div class="media-meta">
+                        <span>2015</span>
+                        <span class="media-rating"><i class="fas fa-star"></i> 9.0</span>
+                    </div>
+                    <span class="media-type">حقوقی و جنایی</span>
+                </div>
+            </div>
+
+            <div class="media-card">
+                <img src="assets/img/prison-break.webp" alt="فرار از زندان" class="media-poster">
+                <div class="media-info">
+                    <h3>فرار از زندان</h3>
+                    <div class="media-meta">
+                        <span>2005</span>
+                        <span class="media-rating"><i class="fas fa-star"></i> 8.3</span>
+                    </div>
+                    <span class="media-type">جنایی</span>
+                </div>
+            </div>
+            <div class="media-card">
+                <img src="assets/img/money-heist.jpg" alt="خانه کاغذی" class="media-poster">
+                <div class="media-info">
+                    <h3>خانه کاغذی</h3>
+                    <div class="media-meta">
+                        <span>2017</span>
+                        <span class="media-rating"><i class="fas fa-star"></i> 8.2</span>
+                    </div>
+                    <span class="media-type">اکشن</span>
+                </div>
+            </div>
+
+            <div class="media-card">
+                <img src="assets/img/the-office.webp" alt="اداره" class="media-poster">
+                <div class="media-info">
+                    <h3>اداره</h3>
+                    <div class="media-meta">
+                        <span>2005</span>
+                        <span class="media-rating"><i class="fas fa-star"></i> 9.0</span>
+                    </div>
+                    <span class="media-type">کمدی</span>
+                </div>
+            </div>
+            
+            <div class="media-card">
+                <img src="assets/img/Mr.-Robot.jpg" alt="آقای ربات" class="media-poster">
+                <div class="media-info">
+                    <h3>آقای ربات</h3>
+                    <div class="media-meta">
+                        <span>2015</span>
+                        <span class="media-rating"><i class="fas fa-star"></i> 8.6</span>
+                    </div>
+                    <span class="media-type">درام</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Categories Section -->
+    <section class="categories animate-on-scroll" id="categories">
+        <h2 class="section-title">دسته بندی ها</h2>
+        <div class="simple-categories">
+            <a href="#" class="simple-category">
+                <i class="fas fa-explosion"></i>
+                <span>اکشن</span>
+            </a>
+            <a href="#" class="simple-category">
+                <i class="fas fa-theater-masks"></i>
+                <span>درام</span>
+            </a>
+            <a href="#" class="simple-category">
+                <i class="fas fa-laugh-squint"></i>
+                <span>کمدی</span>
+            </a>
+            <a href="#" class="simple-category">
+                <i class="fas fa-robot"></i>
+                <span>علمی تخیلی</span>
+            </a>
+            <a href="#" class="simple-category">
+                <i class="fas fa-ghost"></i>
+                <span>ترسناک</span>
+            </a>
+            <a href="#" class="simple-category">
+                <i class="fas fa-user-secret"></i>
+                <span>جنایی</span>
+            </a>
+            <a href="#" class="simple-category">
+                <i class="fas fa-history"></i>
+                <span>تاریخی</span>
+            </a>
+            <a href="#" class="simple-category">
+                <i class="fas fa-space-shuttle"></i>
+                <span>فضایی</span>
+            </a>
+            <a href="#" class="simple-category">
+                <i class="fas fa-question"></i>
+                <span>معمایی</span>
+            </a>
+        </div>
+    </section>
+    
+    <!-- Featured Section -->
+    <section class="featured animate-on-scroll" id="featured">
+        <h2 class="section-title">پیشنهاد ویژه</h2>
+        <div class="featured-container">
+            <!-- فیلم شماره 1 -->
+            <div class="featured-item">
+                <img src="assets/img/the-shawshank-redemption.jpg" alt="رستگاری در شاوشنک" class="featured-img">
+                <div class="featured-info">
+                    <h3>رستگاری در شاوشنک</h3>
+                    <div class="featured-meta">
+                        <span>1994</span>
+                        <span class="featured-rating"><i class="fas fa-star"></i> 9.3/10</span>
+                    </div>
+                    <p class="featured-desc">داستان امید و رستگاری در سیاه‌ترین مکان‌ها. این شاهکار فرانک دارابونت با بازی خیره‌کننده تیم رابینز و مورگان فریمن، تجربه‌ای سینمایی فراموش‌نشدنی است.</p>
+                    <a href="https://www.imdb.com/title/tt0111161/" target="_blank" class="watch-btn">تماشای تیزر <i class="fas fa-play"></i></a>
+                </div>
+            </div>
+            
+            <!-- سریال شماره 1 -->
+            <div class="featured-item">
+                <img src="assets/img/breaking-bad.jpg" alt="بریکینگ بد" class="featured-img">
+                <div class="featured-info">
+                    <h3>بریکینگ بد</h3>
+                    <div class="featured-meta">
+                        <span>2008-2013</span>
+                        <span class="featured-rating"><i class="fas fa-star"></i> 9.5/10</span>
+                    </div>
+                    <p class="featured-desc">تبدیل یک معلم شیمی به قاچاقچی مت آمفتامین! این سریال تحسین‌شده با بازی بریان کرستون، یکی از بهترین‌های تاریخ تلویزیون محسوب می‌شود.</p>
+                    <a href="https://www.imdb.com/title/tt0903747/?ref_=fn_all_ttl_1" target="_blank" class="watch-btn">تماشای تیزر <i class="fas fa-play"></i></a>
+                </div>
+            </div>
+            
+            <!-- فیلم شماره 2 -->
+            <div class="featured-item">
+                <img src="assets/img/The-Godfather.jpg" alt="پدرخوانده" class="featured-img">
+                <div class="featured-info">
+                    <h3>پدرخوانده</h3>
+                    <div class="featured-meta">
+                        <span>1972</span>
+                        <span class="featured-rating"><i class="fas fa-star"></i> 9.2/10</span>
+                    </div>
+                    <p class="featured-desc">شاهکار بی‌همتای فرانسیس فورد کاپولا درباره خانواده مافیایی کورلئونه. بازی افسانه‌ای مارلون براندو و آل پاچینو این فیلم را به اثری ماندگار تبدیل کرده است.</p>
+                    <a href="https://www.imdb.com/title/tt0068646/" target="_blank" class="watch-btn">تماشای تیزر <i class="fas fa-play"></i></a>
+                </div>
+            </div>
+            
+            <!-- سریال شماره 2 -->
+            <div class="featured-item">
+                <img src="assets/img/The-Sopranos.jpg" alt="سوپرانوها" class="featured-img">
+                <div class="featured-info">
+                    <h3>سوپرانوها</h3>
+                    <div class="featured-meta">
+                        <span>1999-2007</span>
+                        <span class="featured-rating"><i class="fas fa-star"></i> 9.2/10</span>
+                    </div>
+                    <p class="featured-desc">زندگی دوگانه تونی سوپرانو به عنوان رئیس مافیا و خانواده‌دوست. این سریال انقلابی در صنعت تلویزیون ایجاد کرد و استانداردهای جدیدی تعریف نمود.</p>
+                    <a href="https://www.imdb.com/title/tt0141842/" target="_blank" class="watch-btn">تماشای تیزر <i class="fas fa-play"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Trending Section -->
+    <section class="trending animate-on-scroll" id="trending">
+        <h2 class="section-title">محبوب‌ترین‌ها</h2>
+        <div class="trending-container">
+            <div class="trending-item">
+                <img src="assets/img/the-shawshank-redemption.jpg" alt="رستگاری در شاوشنک" class="trending-img">
+                <div class="trending-info">
+                    <h4>رستگاری در شاوشنک</h4>
+                    <p>جنایی | 1994</p>
+                </div>
+            </div>
+
+            <div class="trending-item">
+                <img src="assets/img/The-Dark-Knight.jpg" alt="شوالیه تاریکی" class="trending-img">
+                <div class="trending-info">
+                    <h4>شوالیه تاریکی</h4>
+                    <p>اکشن | 2008</p>
+                </div>
+            </div>
+
+            <div class="trending-item">
+                <img src="assets/img/interstellar.jpeg" alt="میان ستاره ای" class="trending-img">
+                <div class="trending-info">
+                    <h4>اینترستلار</h4>
+                    <p>تخیلی | 2014</p>
+                </div>
+            </div>
+            
+            <div class="trending-item">
+                <img src="assets/img/breaking-bad.jpg" alt="بریکینگ بد" class="trending-img">
+                <div class="trending-info">
+                    <h4>بریکینگ بد</h4>
+                    <p>جنایی | 2008-2013</p>
+                </div>
+            </div>
+            
+            <div class="trending-item">
+                <img src="assets/img/BetterCallSaul.jpg" alt="بهتره با ساول تماس بگیری" class="trending-img">
+                <div class="trending-info">
+                    <h4>بهتره با ساول تماس بگیری</h4>
+                    <p>حقوقی | 2015-2022</p>
+                </div>
+            </div>
+            
+            <div class="trending-item">
+                <img src="assets/img/oppenheimer.jpg" alt="اوپنهایمر" class="trending-img">
+                <div class="trending-info">
+                    <h4>اوپنهایمر</h4>
+                    <p>زندگینامه | 2023</p>
+                </div>
+            </div>
+            
+            <div class="trending-item">
+                <img src="assets/img/The-Last-of-Us-2023.jpg" alt="آخرین بازمانده از ما" class="trending-img">
+                <div class="trending-info">
+                    <h4>آخرین بازمانده از ما</h4>
+                    <p>پسا-آخرالزمانی | 2023</p>
+                </div>
+            </div>
+            
+            <div class="trending-item">
+                <img src="assets/img/w-dead.jpg" alt="مردگان متحرک" class="trending-img">
+                <div class="trending-info">
+                    <h4>مردگان متحرک</h4>
+                    <p>درام | 2010</p>
+                </div>
+            </div>
+            
+            <div class="trending-item">
+                <img src="assets/img/fall.jpg" alt="سقوط" class="trending-img">
+                <div class="trending-info">
+                    <h4>سقوط</h4>
+                    <p>درام | 2022</p>
+                </div>
+            </div>
+            
+            <div class="trending-item">
+                <img src="assets/img/Everything_everywhere_all_at_once.jpg" alt="همه چیز در همه جا به یکباره" class="trending-img">
+                <div class="trending-info">
+                    <h4>همه چیز در همه جا به یکباره</h4>
+                    <p>فانتزی | 2022</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--new releases-->
+    <section class="new-releases animate-on-scroll" id="new-releases">
+        <h2 class="section-title">تازه‌ترین آثار</h2>
+        <div class="new-releases-container">
+            <div class="release-card">
+                <div class="release-badge">داغ</div>
+                <img src="assets/img/oppenheimer.jpg" alt="اوپنهایمر" class="release-poster">
+                <div class="release-info">
+                    <h3>اوپنهایمر</h3>
+                    <div class="release-meta">
+                        <span>2023</span>
+                        <span class="release-rating"><i class="fas fa-star"></i> 8.8</span>
+                    </div>
+                    <a href="https://www.imdb.com/title/tt15398776/" target="_blank" class="release-trailer-btn">
+                        تماشای تیزر <i class="fas fa-play"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="release-card">
+                <div class="release-badge">پربیننده</div>
+                <img src="assets/img/The-Last-of-Us-2023.jpg" alt="آخرین بازمانده از ما" class="release-poster">
+                <div class="release-info">
+                    <h3>آخرین بازمانده از ما</h3>
+                    <div class="release-meta">
+                        <span>2023</span>
+                        <span class="release-rating"><i class="fas fa-star"></i> 9.1</span>
+                    </div>
+                    <a href="https://www.imdb.com/title/tt3581920/" target="_blank" class="release-trailer-btn">
+                        تماشای تیزر <i class="fas fa-play"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="release-card">
+                <div class="release-badge">تازه</div>
+                <img src="assets/img/Everything_everywhere_all_at_once.jpg" alt="همه چیز در همه جا به یکباره" class="release-poster">
+                <div class="release-info">
+                    <h3>همه چیز در همه جا به یکباره</h3>
+                    <div class="release-meta">
+                        <span>2022</span>
+                        <span class="release-rating"><i class="fas fa-star"></i> 8.7</span>
+                    </div>
+                    <a href="https://www.imdb.com/title/tt6710474/" target="_blank" class="release-trailer-btn">
+                        تماشای تیزر <i class="fas fa-play"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="release-card">
+                <div class="release-badge">برنده اسکار</div>
+                <img src="assets/img/fall.jpg" alt="سقوط" class="release-poster">
+                <div class="release-info">
+                    <h3>سقوط</h3>
+                    <div class="release-meta">
+                        <span>2022</span>
+                        <span class="release-rating"><i class="fas fa-star"></i> 7.9</span>
+                    </div>
+                    <a href="https://www.imdb.com/title/tt15325794/" target="_blank" class="release-trailer-btn">
+                        تماشای تیزر <i class="fas fa-play"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="release-card">
+                <div class="release-badge">پیشنهاد ویژه</div>
+                <img src="assets/img/w-dead.jpg" alt="مردگان متحرک" class="release-poster">
+                <div class="release-info">
+                    <h3>مردگان متحرک: فصل جدید</h3>
+                    <div class="release-meta">
+                        <span>2023</span>
+                        <span class="release-rating"><i class="fas fa-star"></i> 8.2</span>
+                    </div>
+                    <a href="https://www.imdb.com/title/tt1520211/" target="_blank" class="release-trailer-btn">
+                        تماشای تیزر <i class="fas fa-play"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="release-card">
+                <div class="release-badge">تازه</div>
+                <img src="assets/img/dune-part2.jpg" alt="دون: قسمت دوم" class="release-poster">
+                <div class="release-info">
+                    <h3>دون: قسمت دوم</h3>
+                    <div class="release-meta">
+                        <span>2024</span>
+                        <span class="release-rating"><i class="fas fa-star"></i> 8.9</span>
+                    </div>
+                    <a href="https://www.imdb.com/title/tt15239678/" target="_blank" class="release-trailer-btn">
+                        تماشای تیزر <i class="fas fa-play"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--on personalized-->
+    <section class="personalized animate-on-scroll">
+        <h2 class="section-title">بر اساس سلیقه شما</h2>
+        <div class="personalized-container">
+            <div class="personalized-card">
+                <img src="assets/img/oppenheimer.jpg" alt="اوپنهایمر" class="personalized-poster">
+                <div class="personalized-overlay">
+                    <h3>اوپنهایمر</h3>
+                    <p>87% مطابق با سلیقه شما</p>
+                    <div class="match-bar">
+                        <div class="match-progress" style="width: 87%"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="personalized-card">
+                <img src="assets/img/interstellar.jpeg" alt="میان ستاره‌ای" class="personalized-poster">
+                <div class="personalized-overlay">
+                    <h3>اینترستلار</h3>
+                    <p>92% مطابق با سلیقه شما</p>
+                    <div class="match-bar">
+                        <div class="match-progress" style="width: 92%"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="personalized-card">
+                <img src="assets/img/Inception.jpg" alt="تلقین" class="personalized-poster">
+                <div class="personalized-overlay">
+                    <h3>تلقین</h3>
+                    <p>85% مطابق با سلیقه شما</p>
+                    <div class="match-bar">
+                        <div class="match-progress" style="width: 85%"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="personalized-card">
+                <img src="assets/img/The-Dark-Knight.jpg" alt="شوالیه تاریکی" class="personalized-poster">
+                <div class="personalized-overlay">
+                    <h3>شوالیه تاریکی</h3>
+                    <p>89% مطابق با سلیقه شما</p>
+                    <div class="match-bar">
+                        <div class="match-progress" style="width: 89%"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="personalized-card">
+                <img src="assets/img/the-shawshank-redemption.jpg" alt="رستگاری در شاوشنک" class="personalized-poster">
+                <div class="personalized-overlay">
+                    <h3>رستگاری در شاوشنک</h3>
+                    <p>95% مطابق با سلیقه شما</p>
+                    <div class="match-bar">
+                        <div class="match-progress" style="width: 95%"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="personalized-card">
+                <img src="assets/img/breaking-bad.jpg" alt="بریکینگ بد" class="personalized-poster">
+                <div class="personalized-overlay">
+                    <h3>بریکینگ بد</h3>
+                    <p>91% مطابق با سلیقه شما</p>
+                    <div class="match-bar">
+                        <div class="match-progress" style="width: 91%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">سینما نمونه</div>
+            <ul class="footer-links">
+                <li><a href="#">خانه</a></li>
+                <li><a href="#categories">دسته‌بندی‌ها</a></li>
+                <li><a href="#featured">پیشنهاد ویژه</a></li>
+                <li><a href="#trending">محبوب‌ترین‌ها</a></li>
+                <li><a href="#new-releases">تازه ترین آثار</a></li>
+            </ul>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-telegram"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
+            <div class="copyright">
+                <p>طراحی شده توسط پارسا سدهی</p>
+                <p>&copy; ۱۴۰۴ کلیه حقوق برای سینما نمونه محفوظ است.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+    
+    <!--Java Script-->
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
